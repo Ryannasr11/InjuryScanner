@@ -11,7 +11,7 @@ if not os.path.exists(output_dir):
 def run_scan_img():
     # Run the scan_img.py script and capture its output
     result = subprocess.run(
-        ["python", "scan_img.py"],
+        ["python3", "scan_img.py"],
         capture_output=True,
         text=True
     )
